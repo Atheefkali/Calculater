@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Calculater</title>
+</head>
+<body >
+
+    <div class="calculater">
+        <div class="input">
+            <input type="text" class="input-form" id="display" readonly><hr class="line">
+            <br>
+            <div class="numbers">
+                <button  onclick="appendNumber('7')">7</button>
+                <button  onclick="appendNumber('8')">8</button>
+                <button  onclick="appendNumber('9')">9</button>
+                <button  onclick="appendNumber('+')">+</button>
+                <br>
+                <button  onclick="appendNumber('4')">4</button>
+                <button  onclick="appendNumber('5')">5</button>
+                <button  onclick="appendNumber('6')">6</button>
+                <button  onclick="appendNumber('-')">-</button>
+                <br>
+                <button  onclick="appendNumber('1')">1</button>
+                <button  onclick="appendNumber('2')">2</button>
+                <button  onclick="appendNumber('3')">3</button>
+                <button  onclick="appendNumber('*')">*</button>
+                <br>
+                <button onclick="appendNumber('0')">0</button>
+                <button onclick="clearDispaly('')">C</button>
+                <button onclick="CalculatResult('')">=</button>
+                <button onclick="appendNumber('/')">/</button>
+                <br>
+               
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
